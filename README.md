@@ -1,11 +1,11 @@
 # Intelligent-IoT-Security-Frameworks
 
-<a href="https://github.com/goldboy225/research-material/stargazers"><img src="https://img.shields.io/github/stars/goldboy225/research-material" alt="Stars Badge"/></a>
-<a href="https://github.com/goldboy225/research-material/network/members"><img src="https://img.shields.io/github/forks/goldboy225/research-material" alt="Forks Badge"/></a>
-<a href="https://github.com/goldboy225/research-material/pulls"><img src="https://img.shields.io/github/issues-pr/goldboy225/research-material" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/goldboy225/research-material/issues"><img src="https://img.shields.io/github/issues/goldboy225/research-material" alt="Issues Badge"/></a>
-<a href="https://github.com/goldboy225/research-material/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/goldboy225/research-material?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=goldboy225/research-material)
+<a href="https://github.com/goldboy225/research-material/stargazers"><img src="https://img.shields.io/github/stars/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Stars Badge"/></a>
+<a href="https://github.com/goldboy225/research-material/network/members"><img src="https://img.shields.io/github/forks/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Forks Badge"/></a>
+<a href="https://github.com/goldboy225/research-material/pulls"><img src="https://img.shields.io/github/issues-pr/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/goldboy225/research-material/issues"><img src="https://img.shields.io/github/issues/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Issues Badge"/></a>
+<a href="https://github.com/goldboy225/research-material/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/goldboy225/Intelligent-IoT-Security-Frameworks?color=2b9348"></a>
+![](https://visitor-badge.glitch.me/badge?page_id=goldboy225/Intelligent-IoT-Security-Frameworks)
 
 Don't forget to hit the :star: if you like this repo.
 
