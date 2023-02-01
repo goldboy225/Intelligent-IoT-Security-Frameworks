@@ -1,5 +1,7 @@
 # Intelligent-IoT-Security-Frameworks
 
+This is the coding practise for AI on IoT security, or the state-of-the art machine learning and deep learning techniques to construct an intelligent security model for the Internet of Things.
+
 <a href="https://github.com/goldboy225/research-material/stargazers"><img src="https://img.shields.io/github/stars/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Stars Badge"/></a>
 <a href="https://github.com/goldboy225/research-material/network/members"><img src="https://img.shields.io/github/forks/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Forks Badge"/></a>
 <a href="https://github.com/goldboy225/research-material/pulls"><img src="https://img.shields.io/github/issues-pr/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Pull Requests Badge"/></a>
