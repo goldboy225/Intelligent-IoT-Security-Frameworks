@@ -18,7 +18,8 @@ The purpose of this repo is to inspire new ideas, implement coding practises, an
 ## Contents
 
 [Datasets for Security](#datasets-for-security)  
-[The State of the Art Studies](https://github.com/goldboy225/Intelligent-IoT-Security-Frameworks/blob/main/The-State-of-The-Art-Studies.md)
+[The State of the Art Studies](https://github.com/goldboy225/Intelligent-IoT-Security-Frameworks/blob/main/The-State-of-The-Art-Studies.md)  
+[Attacks](#attacks) 
 
 ### Datasets for Security
 | Dataset | Focus | Source | Introduction | Studies |
@@ -26,6 +27,11 @@ The purpose of this repo is to inspire new ideas, implement coding practises, an
 | [ADFA IDS](https://research.unsw.edu.au/projects/adfa-ids-datasets)|HIDS|UNSW|The datasets cover both Linux and Windows; they are designed for evaluation by system call based HIDS. |[Khater et al.,(2021)](https://www.mdpi.com/2079-9292/10/14/1633)|
 | [Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/index.html)|Cyber Security|UNB|Canadian Institute for Cybersecurity datasets are used around the world by universities, private industry, and independent researchers. We maintain an interactive map indicating datasets downloaded by country. ||
 | [Industrial Control System (ICS) Cyber Attack Datasets](https://sites.google.com/a/uah.edu/tommy-morris-uah/ics-data-sets)|Cyber Security for IIoT|The University of Alabama in Huntsville|My primary research area is computer security. My current research involves security for Industrial Control Systems and other Cyber Physical Systems (CPS). Together with a group of student researchers, I am investigate modeling and simulation of  CPS  systems for cybersecurity research.  We primarily examine vulnerabilities, security controls, and methods for event detection.| [Prof. Tommy Morris](https://sites.google.com/a/uah.edu/tommy-morris-uah/home?authuser=0) |
+
+## Attacks
+| Attack types | Source | Introduction | Severity |
+|--|--|--|--|
+[DDoS Attack](https://www.javatpoint.com/what-is-ddos-attack) | javatpoint |A Distributed Denial of Service (DDoS) attack attempts to make an online service or a website unavailable by overloading it with vast floods of internet traffic generated from multiple sources. Exploited machines can include computers and other networked resources such as IoT devices. A Denial of Service (DoS) attack, in which one computer and one Internet connection are used to flood a targeted resource with packets, but a DDoS attack uses many computers and many Internet connections, often distributed globally in what is referred to as a botnet. A large-scale volumetric DDoS attack can generate traffic measured in tens of Gigabits (and even hundreds of Gigabits) per second. A regular network will not be able to handle such traffic. Attackers build a network of hacked machines known as botnets by spreading malicious code through emails, websites, and social media. Once these computers are infected, they can be controlled remotely, without their owners' knowledge, and used as an army to launch an attack against any target.|High|
 
 
 ![image](https://user-images.githubusercontent.com/22785858/214537437-3a423506-af86-4ed2-9244-9f099cbcff8e.png)
