@@ -15,25 +15,28 @@ This is the coding practise for AI on IoT security, or the state-of-the art mach
 There will be multiple models being or to be constructed based on many considerations, such as the infrastructure of IoT (edge, fog, or central cloud), various attacks for each layer or application (such as botnet, phishing, ransom, etc.), various publicly published datasets (such as NSL-KDD, BoT-IoT, CIC-IoT, etc.), various learning algorithms (Decision Tree, SVM, Naive Bayes, CNN, etc.), various running environments (Google Colab, Jupyter, Kaggle, etc.), and so on.
 The purpose of this repo is to inspire new ideas, implement coding practises, and construct and verify models while keeping pace with the state-of-the-art solutions proposed by academics and industries. So, besides creating models, writing about the interesting ideas of other academics will also be provided.
 
-## Contents
+# Contents
+1. [General Knowledge on Cybersecurity](#general-knowledge-on-cybersecurity)
+2. [Datasets for Security](#datasets-for-security)  
+3. [The State of the Art Studies](https://github.com/goldboy225/Intelligent-IoT-Security-Frameworks/blob/main/The-State-of-The-Art-Studies.md)  
+4. [Attack Types](#attack-types) 
 
-1. [Datasets for Security](#datasets-for-security)  
-2. [The State of the Art Studies](https://github.com/goldboy225/Intelligent-IoT-Security-Frameworks/blob/main/The-State-of-The-Art-Studies.md)  
-3. [Attack Types](#attack-types) 
+## General Knowledge on Cybersecurity
+[What is Cyber Security?](https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security)
 
-### Datasets for Security
+## Datasets for Security
 | Dataset | Focus | Source | Introduction | Studies |
 |--|--|--|--|--|
 | [ADFA IDS](https://research.unsw.edu.au/projects/adfa-ids-datasets)|HIDS|UNSW|The datasets cover both Linux and Windows; they are designed for evaluation by system call based HIDS. |[Khater et al.,(2021)](https://www.mdpi.com/2079-9292/10/14/1633)|
 | [Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/index.html)|Cyber Security|UNB|Canadian Institute for Cybersecurity datasets are used around the world by universities, private industry, and independent researchers. We maintain an interactive map indicating datasets downloaded by country. ||
 | [Industrial Control System (ICS) Cyber Attack Datasets](https://sites.google.com/a/uah.edu/tommy-morris-uah/ics-data-sets)|Cyber Security for IIoT|The University of Alabama in Huntsville|My primary research area is computer security. My current research involves security for Industrial Control Systems and other Cyber Physical Systems (CPS). Together with a group of student researchers, I am investigate modeling and simulation of  CPS  systems for cybersecurity research.  We primarily examine vulnerabilities, security controls, and methods for event detection.| [Prof. Tommy Morris](https://sites.google.com/a/uah.edu/tommy-morris-uah/home?authuser=0) |
 
-### The State of the Art Studies
+## The State of the Art Studies
 | Ref | Title | Idea | Year |
 |--|--|--|--|
 | [Fatani et al.](https://www-scopus-com/record/display.uri?eid=2-s2.0-85121579149&doi=10.3390%2fs22010140&origin=inward&txGid=6f23d48be5b00d327b0eedf404bf70d6) | Advanced feature extraction and selection approach using deep learning and aquila optimizer for iot intrusion detection system | A new feature extraction and selection methods and for the IDS system using the advantages of the swarm intelligence (SI) algorithms | 2022 |
 
-### Attack Types
+## Attack Types
 | Attack types | Source | Introduction | Severity |
 |--|--|--|--|
 [DDoS Attack](https://www.javatpoint.com/what-is-ddos-attack) | javatpoint |A Distributed Denial of Service (DDoS) attack attempts to make an online service or a website unavailable by overloading it with vast floods of internet traffic generated from multiple sources. Exploited machines can include computers and other networked resources such as IoT devices. A Denial of Service (DoS) attack, in which one computer and one Internet connection are used to flood a targeted resource with packets, but a DDoS attack uses many computers and many Internet connections, often distributed globally in what is referred to as a botnet. A large-scale volumetric DDoS attack can generate traffic measured in tens of Gigabits (and even hundreds of Gigabits) per second. A regular network will not be able to handle such traffic. Attackers build a network of hacked machines known as botnets by spreading malicious code through emails, websites, and social media. Once these computers are infected, they can be controlled remotely, without their owners' knowledge, and used as an army to launch an attack against any target.|High|
