@@ -22,7 +22,7 @@ The purpose of this repo is to inspire new ideas, implement coding practises, an
 4. [Attack Types](#attack-types) 
 
 ## General Knowledge on Cybersecurity
-[What is Cyber Security?](https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security)
+[What is Cyber Security?](https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security) Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information security.
 
 ## Datasets for Security
 | Dataset | Focus | Source | Introduction | Studies |
