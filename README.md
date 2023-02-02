@@ -28,6 +28,11 @@ The purpose of this repo is to inspire new ideas, implement coding practises, an
 | [Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/index.html)|Cyber Security|UNB|Canadian Institute for Cybersecurity datasets are used around the world by universities, private industry, and independent researchers. We maintain an interactive map indicating datasets downloaded by country. ||
 | [Industrial Control System (ICS) Cyber Attack Datasets](https://sites.google.com/a/uah.edu/tommy-morris-uah/ics-data-sets)|Cyber Security for IIoT|The University of Alabama in Huntsville|My primary research area is computer security. My current research involves security for Industrial Control Systems and other Cyber Physical Systems (CPS). Together with a group of student researchers, I am investigate modeling and simulation of  CPS  systems for cybersecurity research.  We primarily examine vulnerabilities, security controls, and methods for event detection.| [Prof. Tommy Morris](https://sites.google.com/a/uah.edu/tommy-morris-uah/home?authuser=0) |
 
+### The State of the Art Studies
+| Ref | Title | Idea | Year |
+|--|--|--|--|
+| [Fatani et al.](https://www-scopus-com/record/display.uri?eid=2-s2.0-85121579149&doi=10.3390%2fs22010140&origin=inward&txGid=6f23d48be5b00d327b0eedf404bf70d6) | Advanced feature extraction and selection approach using deep learning and aquila optimizer for iot intrusion detection system | A new feature extraction and selection methods and for the IDS system using the advantages of the swarm intelligence (SI) algorithms | 2022 |
+
 ### Attack Types
 | Attack types | Source | Introduction | Severity |
 |--|--|--|--|
