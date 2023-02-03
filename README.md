@@ -34,7 +34,8 @@ The purpose of this repo is to inspire new ideas, implement coding practises, an
 ## The State of the Art Studies
 | Ref | Title | Idea | Year |
 |--|--|--|--|
-| [Fatani et al.](https://www-scopus-com/record/display.uri?eid=2-s2.0-85121579149&doi=10.3390%2fs22010140&origin=inward&txGid=6f23d48be5b00d327b0eedf404bf70d6) | Advanced feature extraction and selection approach using deep learning and aquila optimizer for iot intrusion detection system | A new feature extraction and selection methods and for the IDS system using the advantages of the swarm intelligence (SI) algorithms | 2022 |
+| [Fatani et al.](https://www.mdpi.com/1424-8220/22/1/140) | Advanced feature extraction and selection approach using deep learning and aquila optimizer for iot intrusion detection system | A new feature extraction and selection methods and for the IDS system using the advantages of the swarm intelligence (SI) algorithms | 2022 |
+| [Disha and Waheed](https://cybersecurity.springeropen.com/articles/10.1186/s42400-021-00103-8) | Performance analysis of machine learning models for intrusion detection system using Gini Impurity-based Weighted Random Forest (GIWRF) feature selection technique | As the performance of IDS deteriorates with a high dimensional feature vector, an optimum set of features was selected through a Gini Impurity-based Weighted Random Forest (GIWRF) model as the embedded feature selection technique. | 2022 |
 
 
 ## Attack Types
