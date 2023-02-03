@@ -18,7 +18,7 @@ The purpose of this repo is to inspire new ideas, implement coding practises, an
 # Contents
 1. [General Knowledge on Cybersecurity](#general-knowledge-on-cybersecurity)
 2. [Datasets for Security](#datasets-for-security)  
-3. [The State of the Art Studies](/goldboy225/Intelligent-IoT-Security-Frameworks/blob/main/The-State-of-The-Art-Studies.md)  
+3. [The State of the Art Studies]([Intelligent-IoT-Security-Frameworks/The-State-of-The-Art-Studies.md](https://github.com/goldboy225/Intelligent-IoT-Security-Frameworks/blob/main/The-State-of-The-Art-Studies.md))  
 4. [Attack Types](#attack-types) 
 
 ## General Knowledge on Cybersecurity
@@ -35,6 +35,7 @@ The purpose of this repo is to inspire new ideas, implement coding practises, an
 | Ref | Title | Idea | Year |
 |--|--|--|--|
 | [Fatani et al.](https://www-scopus-com/record/display.uri?eid=2-s2.0-85121579149&doi=10.3390%2fs22010140&origin=inward&txGid=6f23d48be5b00d327b0eedf404bf70d6) | Advanced feature extraction and selection approach using deep learning and aquila optimizer for iot intrusion detection system | A new feature extraction and selection methods and for the IDS system using the advantages of the swarm intelligence (SI) algorithms | 2022 |
+
 
 ## Attack Types
 | Attack types | Source | Introduction | Severity |
