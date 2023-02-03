@@ -18,7 +18,7 @@ The purpose of this repo is to inspire new ideas, implement coding practises, an
 # Contents
 1. [General Knowledge on Cybersecurity](#general-knowledge-on-cybersecurity)
 2. [Datasets for Security](#datasets-for-security)  
-3. [The State of the Art Studies](https://github.com/goldboy225/Intelligent-IoT-Security-Frameworks/blob/main/The-State-of-The-Art-Studies.md)  
+3. [The State of the Art Studies](/goldboy225/Intelligent-IoT-Security-Frameworks/blob/main/The-State-of-The-Art-Studies.md)  
 4. [Attack Types](#attack-types) 
 
 ## General Knowledge on Cybersecurity
