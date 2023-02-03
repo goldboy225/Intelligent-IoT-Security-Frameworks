@@ -9,3 +9,13 @@
 		 - Meta-heuristic algorithms, reasonable time, stochastic-based, no need for complete feature space, various studies using meta-heuristic algorithms but not IoT, and many other studies on IoT...
 		 - No-Free-lunch theorem, so still have opportunities to inprove the evolutionary algorithms, few studies using wrapper-based approach in IoT's context environment, even that, gap for time-varying operators on GWO for FS in IDSs in IoT networks. GAP exisits here...
 		 - GWO algorithm, the mechanism of GWO..., the crucial point is the balance between global and local searching time, or say exploration (global search) and exploitation (local search)...then this work use BGWO to search and evaluate using kNN. Aim is to investigate the impact of time-dependent S-TFs and V-TFs on the performance of BGWO, because TF is the major impact to control a balanced global/local search.
+
+ - [Fatani et al., (2022)](https://orcid.org/0000-0002-9097-0945)
+	 - The logic of the proposed idea briefly extracted from Intro section
+		 - Internet applications developed, cyber security needed, IDS is important,
+		 - Many traditional ML methods(kNN, SVM, K-Means, DT) applied, deep learning algorithms (MLP, CNN, RNN) applied in recent years ... however, deep learning required big size of features to achieve high classification accuracy rates.
+		 - Feature selection is needed for ML applications, many FS methods boost the efficiency of IDS. (GWO, CSA, GA, WOA, RHS, PSO)
+		 - Alternative FS approach called Aquila Optimizer, it outperformed others in one study, and applied in many domain areas (engineering, medical, and others), However, traditional AQU suffer from slow convergence, thus, binary version to boost its performance. 
+		 - In this study, method applied, feature extraction by CNN to obtain features, then AQU to select features to reflect characteristics of datasets, four datasets BoT-IoT, NSL-KDD, CIC2017, and KDD99 to evaluate the approach.
+		 - Contribution: 1. combination of DL and AQU to enhance IoT security. 2. CNN as feature extractor. 3. binary AQU as feature selector. 4. four public datasets and extensive comparison to other methods.
+		 - Section 2 for related studies, section 3 the basics of methods, section 4 experiments, section 5 results, sections 6 conclusion and future work.
