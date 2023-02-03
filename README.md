@@ -20,6 +20,7 @@ The purpose of this repo is to inspire new ideas, implement coding practises, an
 2. [Datasets for Security](#datasets-for-security)  
 3. [The State of the Art Studies](https://github.com/goldboy225/Intelligent-IoT-Security-Frameworks/blob/main/The-State-of-The-Art-Studies.md)  
 4. [Attack Types](#attack-types) 
+5. [Metaheuristic Algorithms](#metaheuristic-algorithms)
 
 ## General Knowledge on Cybersecurity
 [What is Cyber Security?](https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security) Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information security.
@@ -43,6 +44,14 @@ The purpose of this repo is to inspire new ideas, implement coding practises, an
 |--|--|--|--|
 [DDoS Attack](https://www.javatpoint.com/what-is-ddos-attack) | javatpoint |A Distributed Denial of Service (DDoS) attack attempts to make an online service or a website unavailable by overloading it with vast floods of internet traffic generated from multiple sources. Exploited machines can include computers and other networked resources such as IoT devices. A Denial of Service (DoS) attack, in which one computer and one Internet connection are used to flood a targeted resource with packets, but a DDoS attack uses many computers and many Internet connections, often distributed globally in what is referred to as a botnet. A large-scale volumetric DDoS attack can generate traffic measured in tens of Gigabits (and even hundreds of Gigabits) per second. A regular network will not be able to handle such traffic. Attackers build a network of hacked machines known as botnets by spreading malicious code through emails, websites, and social media. Once these computers are infected, they can be controlled remotely, without their owners' knowledge, and used as an army to launch an attack against any target.|High|
 
+
+## Metaheuristic Algorithms
+| HM Algorithms | Study | Introduction |
+|--|--|--|
+| Firefly algorithm | [Xin-She Yang and Xingshi He](https://doi.org/10.1504/IJSI.2013.055801) | In this paper, we will briefly review the fundamentals of firefly algorithm together with a selection of recent publications. Then, we discuss the optimality associated with balancing exploration and exploitation, which is essential for all metaheuristic algorithms. By comparing with intermittent search strategy, we conclude that metaheuristics such as firefly algorithm are better than the optimal intermittent search strategy. We also analyse algorithms and their implications for higherdimensional optimisation problems. |
+|Particle swarm optimization|Kennedy, J.; Eberhart, R.|Particle swarm optimization. In Proceedings of the ICNN’95-International Conference on Neural Networks, Perth, WA, Australia, 27 November–1 December 1995; Volume 4, pp. 1942–1948.|
+|The whale optimization algorithm|[Mirjalili, S.; Lewis](https://doi.org/10.1016/j.advengsoft.2016.01.008)|This paper proposes a novel nature-inspired meta-heuristic optimization algorithm, called Whale Optimization Algorithm (WOA), which mimics the social behavior of humpback whales. The algorithm is inspired by the bubble-net hunting strategy. WOA is tested with 29 mathematical optimization problems and 6 structural design problems. Optimization results prove that the WOA algorithm is very competitive compared to the state-of-art meta-heuristic algorithms as well as conventional methods. The source codes of the WOA algorithm are publicly available at http://www.alimirjalili.com/WOA.html|
+|Moth-flame optimization algorithm|[Mirjalili, S.](http://dx.doi.org/10.1016/j.knosys.2015.07.006)||
 
 ![image](https://user-images.githubusercontent.com/22785858/214537437-3a423506-af86-4ed2-9244-9f099cbcff8e.png)
 
