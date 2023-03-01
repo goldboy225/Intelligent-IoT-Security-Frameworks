@@ -2,8 +2,6 @@
 
 This is the coding practise for AI on IoT security, or the state-of-the art machine learning and deep learning techniques to construct an intelligent security model for the Internet of Things.
 
-[Daily Literature Review](https://github.com/goldboy225/PhD-Journey/blob/main/Literatures%20Daily.md) This is the repository to save the recent new literatures collected, skimmed, and read, to keep up with pace of the-state-of-the art works.
-
 <a href="https://github.com/goldboy225/research-material/stargazers"><img src="https://img.shields.io/github/stars/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Stars Badge"/></a>
 <a href="https://github.com/goldboy225/research-material/network/members"><img src="https://img.shields.io/github/forks/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Forks Badge"/></a>
 <a href="https://github.com/goldboy225/research-material/pulls"><img src="https://img.shields.io/github/issues-pr/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Pull Requests Badge"/></a>
@@ -18,6 +16,7 @@ There will be multiple models being or to be constructed based on many considera
 The purpose of this repo is to inspire new ideas, implement coding practises, and construct and verify models while keeping pace with the state-of-the-art solutions proposed by academics and industries. So, besides creating models, writing about the interesting ideas of other academics will also be provided.
 
 # Contents
+0. [Daily Literature Review](https://github.com/goldboy225/PhD-Journey/blob/main/Literatures%20Daily.md) This is the repository to save the recent new literatures collected, skimmed, and read, to keep up with pace of the-state-of-the art works.
 1. [General Knowledge on Cybersecurity](#general-knowledge-on-cybersecurity)
 2. [Datasets for Security](#datasets-for-security)  
 3. [The State of the Art Studies](https://github.com/goldboy225/Intelligent-IoT-Security-Frameworks/blob/main/The-State-of-The-Art-Studies.md)  
