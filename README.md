@@ -2,6 +2,8 @@
 
 This is the coding practise for AI on IoT security, or the state-of-the art machine learning and deep learning techniques to construct an intelligent security model for the Internet of Things.
 
+[Daily Literature Review](https://github.com/goldboy225/PhD-Journey/blob/main/Literatures%20Daily.md) This is the repository to save the recent new literatures collected, skimmed, and read, to keep up with pace of the-state-of-the art works.
+
 <a href="https://github.com/goldboy225/research-material/stargazers"><img src="https://img.shields.io/github/stars/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Stars Badge"/></a>
 <a href="https://github.com/goldboy225/research-material/network/members"><img src="https://img.shields.io/github/forks/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Forks Badge"/></a>
 <a href="https://github.com/goldboy225/research-material/pulls"><img src="https://img.shields.io/github/issues-pr/goldboy225/Intelligent-IoT-Security-Frameworks" alt="Pull Requests Badge"/></a>
