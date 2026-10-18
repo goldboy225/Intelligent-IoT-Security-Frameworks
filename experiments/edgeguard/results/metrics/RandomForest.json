@@ -1,0 +1,23 @@
+{
+  "model": "RandomForest",
+  "accuracy": 0.876063256259734,
+  "macro_f1": 0.5511888883648679,
+  "weighted_f1": 0.8791884708687454,
+  "mcc": 0.7878311296914339,
+  "rare_class_recall": 0.4212214469404734,
+  "throughput_flows_s": 86549.62700337978,
+  "batch_amortized_ms_flow": 0.011554064813716064,
+  "inference_pass_seconds": [
+    0.19288355800017598,
+    0.19243057900007443,
+    0.19076831400002447,
+    0.19705073399995854,
+    0.1930939380001746
+  ],
+  "serialized_bytes": 173670729,
+  "mean_retained_macro_f1": 0.24128213579407828,
+  "performance_retention_ratio": 0.43774854843292466,
+  "fit_seconds": 11.70265035400007,
+  "fit_warnings": [],
+  "sample_weight_supported": true
+}

@@ -1,0 +1,35 @@
+{
+  "model": "Augmented_SMOTE_only",
+  "accuracy": 0.8752845333652809,
+  "macro_f1": 0.5705666419895048,
+  "weighted_f1": 0.879082538950381,
+  "mcc": 0.787108713943202,
+  "rare_class_recall": 0.5529460706451856,
+  "throughput_flows_s": 32857.11167806505,
+  "batch_amortized_ms_flow": 0.030434811489154296,
+  "inference_pass_seconds": [
+    0.5051758619999873,
+    0.5240452999998979,
+    0.5080787429999418,
+    0.4637352939998891,
+    0.5120268170001054
+  ],
+  "serialized_bytes": 7320226,
+  "stage1_binary_f1": 0.9457070707070707,
+  "stage1_attack_recall": 0.931592039800995,
+  "stage1_roc_auc": 0.9921651305448977,
+  "escalation_rate": 0.3737869893374865,
+  "stage2_smote_counts": {
+    "0": 4000,
+    "1": 4000,
+    "2": 4000,
+    "3": 5283,
+    "4": 4000,
+    "5": 4000,
+    "7": 4000,
+    "8": 4000,
+    "9": 4000
+  },
+  "mean_retained_macro_f1": 0.3427977800436686,
+  "performance_retention_ratio": 0.6008023512352028
+}

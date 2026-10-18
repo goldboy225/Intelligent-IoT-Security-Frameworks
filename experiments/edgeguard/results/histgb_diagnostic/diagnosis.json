@@ -1,0 +1,5 @@
+{
+  "raw_margin_min": -1231423.2899297697,
+  "raw_margin_max": 736966.7029734835,
+  "interpretation": "L2=0 model develops extreme raw margins; held-out F1 deteriorates after early iterations. No iteration is selected from held-out scores. L2=1 is a separate sensitivity analysis, not a replacement baseline."
+}

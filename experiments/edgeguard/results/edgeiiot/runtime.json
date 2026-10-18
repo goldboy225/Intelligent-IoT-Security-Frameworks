@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "cpu_affinity": [
+    1
+  ],
+  "thread_limit": 1,
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.8.0",
+    "imbalanced-learn": "0.14.2",
+    "xgboost": "3.3.0",
+    "lightgbm": "4.7.0",
+    "shap": "0.52.0"
+  }
+}

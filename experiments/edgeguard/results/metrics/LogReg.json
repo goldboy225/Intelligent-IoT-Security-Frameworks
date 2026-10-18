@@ -1,0 +1,25 @@
+{
+  "model": "LogReg",
+  "accuracy": 0.5288127470947646,
+  "macro_f1": 0.3056893603182078,
+  "weighted_f1": 0.5866793929574868,
+  "mcc": 0.40131832344571194,
+  "rare_class_recall": 0.6174291846305121,
+  "throughput_flows_s": 14812580.133387396,
+  "batch_amortized_ms_flow": 6.751018330331329e-05,
+  "inference_pass_seconds": [
+    0.0012944529999003862,
+    0.0011270150000655121,
+    0.001147945999946387,
+    0.0010205080000105227,
+    0.0010051650001514645
+  ],
+  "serialized_bytes": 2599,
+  "mean_retained_macro_f1": 0.21280938156069285,
+  "performance_retention_ratio": 0.6961622129706071,
+  "fit_seconds": 1.1613203819999853,
+  "fit_warnings": [
+    "lbfgs failed to converge after 100 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=100).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html\nPlease also refer to the documentation for alternative solver options:\n    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression"
+  ],
+  "sample_weight_supported": true
+}

@@ -1,0 +1,8 @@
+Preparing dataset and train-only MI/RFE selection
+Training EdgeGuard
+{"model": "EdgeGuard", "accuracy": 0.8728285611596981, "macro_f1": 0.5672544722637929, "mean_retained_macro_f1": 0.34377845649274236}
+mkdir -p failed for path /home/agent/.config/matplotlib: [Errno 30] Read-only file system: '/home/agent/.config/matplotlib'
+Matplotlib created a temporary cache directory at /tmp/matplotlib-60ovembz because there was an issue with the default path (/home/agent/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+SHAP: both stages explained on 256 held-out flows
+EXPERIMENT COMPLETE /workspace/edgeguard/results/paper_features

@@ -1,0 +1,52 @@
+{
+  "raw_rows": 18556,
+  "deduplicated_rows": 16330,
+  "train_rows": 11431,
+  "test_rows": 4899,
+  "counts": {
+    "DDoS": 8227,
+    "DoS": 5972,
+    "Reconnaissance": 1653,
+    "Normal": 406,
+    "Theft": 72
+  },
+  "seed": 42,
+  "dataset": "botiot_alternative",
+  "deduplication": "numeric predictors plus class target, excluding ID, binary labels and categorical predictors",
+  "raw_numeric_features": 17,
+  "nonconstant_numeric_features": 15,
+  "feature_mode": "hybrid",
+  "selected_features": [
+    "drate",
+    "dpkts",
+    "dbytes",
+    "pkts",
+    "spkts",
+    "stddev",
+    "min",
+    "bytes",
+    "mean",
+    "max",
+    "sbytes",
+    "sum",
+    "srate",
+    "rate",
+    "dur"
+  ],
+  "class_names": [
+    "DDoS",
+    "DoS",
+    "Normal",
+    "Reconnaissance",
+    "Theft"
+  ],
+  "source_sha256": "7f4b4f80bf76dabaaea731f8ef0812827be9ecabf7f429c8255727a9ee4a1c42",
+  "rare_class_definition": "three rarest classes by training support",
+  "training_counts": {
+    "DDoS": 5759,
+    "DoS": 4180,
+    "Normal": 284,
+    "Reconnaissance": 1157,
+    "Theft": 51
+  }
+}

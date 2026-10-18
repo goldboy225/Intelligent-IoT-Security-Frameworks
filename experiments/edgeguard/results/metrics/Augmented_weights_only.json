@@ -1,0 +1,35 @@
+{
+  "model": "Augmented_weights_only",
+  "accuracy": 0.8703126871930035,
+  "macro_f1": 0.5800318991243513,
+  "weighted_f1": 0.8775938017163014,
+  "mcc": 0.7816100418028901,
+  "rare_class_recall": 0.48782240375160724,
+  "throughput_flows_s": 31032.212894346165,
+  "batch_amortized_ms_flow": 0.03222457913022994,
+  "inference_pass_seconds": [
+    0.533370904000094,
+    0.5377551449998919,
+    0.5544906929999343,
+    0.5393504429998757,
+    0.5379571240000587
+  ],
+  "serialized_bytes": 7320242,
+  "stage1_binary_f1": 0.9447415329768271,
+  "stage1_attack_recall": 0.9476057213930348,
+  "stage1_roc_auc": 0.9921485106381948,
+  "escalation_rate": 0.38762429615430694,
+  "stage2_smote_counts": {
+    "0": 276,
+    "1": 224,
+    "2": 1160,
+    "3": 5283,
+    "4": 3347,
+    "5": 2558,
+    "7": 1865,
+    "8": 265,
+    "9": 31
+  },
+  "mean_retained_macro_f1": 0.3513603208362883,
+  "performance_retention_ratio": 0.6057603407100913
+}

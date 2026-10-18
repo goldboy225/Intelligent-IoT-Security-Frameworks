@@ -1,0 +1,38 @@
+{
+  "model": "GroupAware_EdgeGuard",
+  "accuracy": 0.870020964360587,
+  "macro_f1": 0.5529275725225719,
+  "weighted_f1": 0.8754972455325691,
+  "mcc": 0.7801942402103317,
+  "rare_class_recall": 0.48596456395128956,
+  "throughput_flows_s": 34203.73567115979,
+  "batch_amortized_ms_flow": 0.02923657256663894,
+  "inference_pass_seconds": [
+    0.4881045790000371,
+    0.5500826390000384,
+    0.545289935000028,
+    0.4767494140000963,
+    0.47781740999994327
+  ],
+  "serialized_bytes": 7320242,
+  "stage1_binary_f1": 0.9487538940809969,
+  "stage1_attack_recall": 0.9468366236592569,
+  "stage1_roc_auc": 0.9928538163629159,
+  "escalation_rate": 0.3837675950883498,
+  "stage2_smote_counts": {
+    "0": 4000,
+    "1": 4000,
+    "2": 4000,
+    "3": 5283,
+    "4": 4000,
+    "5": 4000,
+    "7": 4000,
+    "8": 4000,
+    "9": 4000
+  },
+  "mean_retained_macro_f1": 0.34039549325679497,
+  "performance_retention_ratio": 0.6156240169102785,
+  "train_rows": 38950,
+  "test_rows": 16695,
+  "max_class_test_fraction_deviation": 0.004545454545454519
+}

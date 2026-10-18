@@ -1,0 +1,23 @@
+{
+  "model": "GaussianNB",
+  "accuracy": 0.3625853600095843,
+  "macro_f1": 0.2081151351148066,
+  "weighted_f1": 0.44847047016882363,
+  "mcc": 0.2551415561561623,
+  "rare_class_recall": 0.42090471598214957,
+  "throughput_flows_s": 4024038.1684575165,
+  "batch_amortized_ms_flow": 0.0002485065891865825,
+  "inference_pass_seconds": [
+    0.004412848999891139,
+    0.004148568999880808,
+    0.004352871000037339,
+    0.004131934000042747,
+    0.0038996509999833506
+  ],
+  "serialized_bytes": 4167,
+  "mean_retained_macro_f1": 0.17846898468039032,
+  "performance_retention_ratio": 0.8575492819488502,
+  "fit_seconds": 0.016975790000060442,
+  "fit_warnings": [],
+  "sample_weight_supported": true
+}

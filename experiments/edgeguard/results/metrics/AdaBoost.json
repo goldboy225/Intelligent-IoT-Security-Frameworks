@@ -1,0 +1,23 @@
+{
+  "model": "AdaBoost",
+  "accuracy": 0.5983586917455374,
+  "macro_f1": 0.37604197224307,
+  "weighted_f1": 0.652988383186621,
+  "mcc": 0.4727618100793102,
+  "rare_class_recall": 0.3248265070720823,
+  "throughput_flows_s": 434615.9780947433,
+  "batch_amortized_ms_flow": 0.002300881813834297,
+  "inference_pass_seconds": [
+    0.038410921000149756,
+    0.03886389999979656,
+    0.038158737000003384,
+    0.03826925199996367,
+    0.03988256299999193
+  ],
+  "serialized_bytes": 46276,
+  "mean_retained_macro_f1": 0.13962385075649283,
+  "performance_retention_ratio": 0.371298581176043,
+  "fit_seconds": 4.486266118000003,
+  "fit_warnings": [],
+  "sample_weight_supported": true
+}

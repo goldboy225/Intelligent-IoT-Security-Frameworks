@@ -1,0 +1,7 @@
+Preparing dataset and train-only MI/RFE selection
+/workspace/Intelligent-IoT-Security-Frameworks/experiments/edgeguard/run_experiment.py:192: DtypeWarning: Columns (3: arp.dst.proto_ipv4, 6: arp.src.proto_ipv4, 11: http.file_data, 13: http.request.uri.query, 14: http.request.method, 15: http.referer, 16: http.request.full_uri, 17: http.request.version, 31: tcp.options, 32: tcp.payload, 34: tcp.srcport, 39: dns.qry.name.len, 45: mqtt.conack.flags, 51: mqtt.msg, 54: mqtt.protoname, 55: mqtt.topic) have mixed types. Specify dtype option on import or set low_memory=False.
+  raw=pd.read_csv(csv)
+Training EdgeGuard
+{"model": "EdgeGuard", "accuracy": 0.9395717476025748, "macro_f1": 0.9322788889068968, "mean_retained_macro_f1": 0.5452930084035944}
+SHAP: both stages explained on 256 held-out flows
+EXPERIMENT COMPLETE /workspace/edgeguard/results/edgeiiot

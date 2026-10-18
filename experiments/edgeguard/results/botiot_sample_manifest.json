@@ -1,0 +1,70 @@
+{
+  "source": "https://github.com/AG24-hub/Gradient-Boosting-algorithm-on-BOT-IOT-Dataset/blob/main/Dataset.zip",
+  "archive_sha256": "248b99eb65015b03069ecccf0421b48fba4d762ab92e9ed5bb7e434c06242bd8",
+  "files": [
+    {
+      "file": "Dataset/reduced_data_1.csv",
+      "raw_counts": {
+        "DoS": 1000000
+      },
+      "selected_counts": {
+        "DoS": 3000
+      }
+    },
+    {
+      "file": "Dataset/reduced_data_2.csv",
+      "raw_counts": {
+        "DoS": 650260,
+        "DDoS": 349740
+      },
+      "selected_counts": {
+        "DoS": 3000,
+        "DDoS": 3000
+      }
+    },
+    {
+      "file": "Dataset/reduced_data_3.csv",
+      "raw_counts": {
+        "DDoS": 1000000
+      },
+      "selected_counts": {
+        "DDoS": 3000
+      }
+    },
+    {
+      "file": "Dataset/reduced_data_4.csv",
+      "raw_counts": {
+        "DDoS": 576884,
+        "Normal": 477,
+        "Reconnaissance": 91082,
+        "Theft": 79
+      },
+      "selected_counts": {
+        "DDoS": 3000,
+        "Reconnaissance": 3000,
+        "Normal": 477,
+        "Theft": 79
+      }
+    }
+  ],
+  "sample_seed": 42,
+  "rows": 18556,
+  "features": [
+    "pkts",
+    "bytes",
+    "dur",
+    "mean",
+    "stddev",
+    "sum",
+    "min",
+    "max",
+    "spkts",
+    "dpkts",
+    "sbytes",
+    "dbytes",
+    "rate",
+    "srate",
+    "drate"
+  ],
+  "limitation": "Alternative four-file 5% release sample, NOT paper Table 5 original 40-scenario-file sample. All Normal/Theft plus up to 3000 random rows per other category per file. No claim of exact Bot-IoT same-dataset reproduction."
+}

@@ -1,0 +1,23 @@
+{
+  "model": "DecisionTree",
+  "accuracy": 0.8324547741703606,
+  "macro_f1": 0.5147647119425302,
+  "weighted_f1": 0.8454854044844438,
+  "mcc": 0.7261564804298705,
+  "rare_class_recall": 0.410329683836321,
+  "throughput_flows_s": 8953683.700383568,
+  "batch_amortized_ms_flow": 0.00011168587516188011,
+  "inference_pass_seconds": [
+    0.0018644839999524265,
+    0.0018849850000606239,
+    0.0016884039998785738,
+    0.0022494930001357716,
+    0.0017607510001198534
+  ],
+  "serialized_bytes": 1241369,
+  "mean_retained_macro_f1": 0.15566525238358606,
+  "performance_retention_ratio": 0.30240078383804403,
+  "fit_seconds": 0.8368739970001116,
+  "fit_warnings": [],
+  "sample_weight_supported": true
+}

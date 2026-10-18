@@ -1,0 +1,3 @@
+condition,accuracy,macro_f1,paper_macro_f1,mean_retained_macro_f1
+Edge-IIoTset retraining,0.9395717476025748,0.9322788889068968,0.93,0.5452930084035944
+Bot-IoT alternative 5% sample (not paper sample),0.9832618901816698,0.9276035078129634,,0.4763769347543703

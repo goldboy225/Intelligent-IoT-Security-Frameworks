@@ -1,0 +1,20 @@
+{
+  "model": "Flat_unbalanced_noaug",
+  "accuracy": 0.8837306816820415,
+  "macro_f1": 0.5728645125464109,
+  "weighted_f1": 0.881055524464899,
+  "mcc": 0.8002775319219128,
+  "rare_class_recall": 0.35909017850389535,
+  "throughput_flows_s": 12069.258893424905,
+  "batch_amortized_ms_flow": 0.08285512878879252,
+  "inference_pass_seconds": [
+    1.4430987360001382,
+    1.3831835200001024,
+    1.3949726749999627,
+    1.372399107999854,
+    1.3441038020000633
+  ],
+  "serialized_bytes": 7185760,
+  "mean_retained_macro_f1": 0.2165378568856957,
+  "performance_retention_ratio": 0.3779913961211776
+}
