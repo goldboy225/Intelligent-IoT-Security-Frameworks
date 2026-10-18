@@ -1,0 +1,23 @@
+{
+  "model": "MLP",
+  "accuracy": 0.7987300826644304,
+  "macro_f1": 0.4973401688469653,
+  "weighted_f1": 0.8215530135461673,
+  "mcc": 0.6861208594582878,
+  "rare_class_recall": 0.6147866084259889,
+  "throughput_flows_s": 1392156.8381987305,
+  "batch_amortized_ms_flow": 0.0007183098718200959,
+  "inference_pass_seconds": [
+    0.01153590300009455,
+    0.01199146500016468,
+    0.012569869999879302,
+    0.012042600999848219,
+    0.011726664999969216
+  ],
+  "serialized_bytes": 181920,
+  "mean_retained_macro_f1": 0.2596859915286679,
+  "performance_retention_ratio": 0.5221496428304284,
+  "fit_seconds": 12.552221748999955,
+  "fit_warnings": [],
+  "sample_weight_supported": true
+}

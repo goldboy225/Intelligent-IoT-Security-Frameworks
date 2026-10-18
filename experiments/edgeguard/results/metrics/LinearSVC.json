@@ -1,0 +1,23 @@
+{
+  "model": "LinearSVC",
+  "accuracy": 0.5142566191446029,
+  "macro_f1": 0.29602603868925015,
+  "weighted_f1": 0.5709332254285621,
+  "mcc": 0.39267106471462526,
+  "rare_class_recall": 0.635265392179109,
+  "throughput_flows_s": 15374923.790028142,
+  "batch_amortized_ms_flow": 6.504097279809474e-05,
+  "inference_pass_seconds": [
+    0.0010377030000654486,
+    0.0011952059999202902,
+    0.0010536760000832146,
+    0.0010857939998913935,
+    0.0011815359998763597
+  ],
+  "serialized_bytes": 2467,
+  "mean_retained_macro_f1": 0.18766200350404474,
+  "performance_retention_ratio": 0.6339374885228956,
+  "fit_seconds": 6.251199159999942,
+  "fit_warnings": [],
+  "sample_weight_supported": true
+}

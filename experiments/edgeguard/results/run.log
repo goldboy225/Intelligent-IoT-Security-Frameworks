@@ -1,0 +1,46 @@
+Preparing dataset and train-only MI/RFE selection
+Training EdgeGuard
+{"model": "EdgeGuard", "accuracy": 0.8690547502096562, "macro_f1": 0.5702406292381232, "mean_retained_macro_f1": 0.3444166616150095}
+Training HistGBM
+{"model": "HistGBM", "accuracy": 0.31957589553132865, "macro_f1": 0.22771208362073198, "mean_retained_macro_f1": 0.10396826749945515}
+Training XGBoost
+{"model": "XGBoost", "accuracy": 0.8752246316041692, "macro_f1": 0.5606940915065246, "mean_retained_macro_f1": 0.21730648919782966}
+Training LightGBM
+{"model": "LightGBM", "accuracy": 0.877680603809752, "macro_f1": 0.5565991160044337, "mean_retained_macro_f1": 0.2072608979212548}
+Training RandomForest
+{"model": "RandomForest", "accuracy": 0.876063256259734, "macro_f1": 0.5511888883648679, "mean_retained_macro_f1": 0.24128213579407828}
+Training ExtraTrees
+{"model": "ExtraTrees", "accuracy": 0.8730681682041452, "macro_f1": 0.5430107883197621, "mean_retained_macro_f1": 0.2727113575128972}
+Training DecisionTree
+{"model": "DecisionTree", "accuracy": 0.8324547741703606, "macro_f1": 0.5147647119425302, "mean_retained_macro_f1": 0.15566525238358606}
+Training MLP
+{"model": "MLP", "accuracy": 0.7987300826644304, "macro_f1": 0.4973401688469653, "mean_retained_macro_f1": 0.2596859915286679}
+Training kNN
+{"model": "kNN", "accuracy": 0.8035821253144843, "macro_f1": 0.44395363864450976}
+Training AdaBoost
+{"model": "AdaBoost", "accuracy": 0.5983586917455374, "macro_f1": 0.37604197224307, "mean_retained_macro_f1": 0.13962385075649283}
+Training LogReg
+{"model": "LogReg", "accuracy": 0.5288127470947646, "macro_f1": 0.3056893603182078, "mean_retained_macro_f1": 0.21280938156069285}
+Training LinearSVC
+{"model": "LinearSVC", "accuracy": 0.5142566191446029, "macro_f1": 0.29602603868925015, "mean_retained_macro_f1": 0.18766200350404474}
+Training GaussianNB
+{"model": "GaussianNB", "accuracy": 0.3625853600095843, "macro_f1": 0.2081151351148066, "mean_retained_macro_f1": 0.17846898468039032}
+Ablation Hierarchical_unbalanced_noaug
+{"model": "Hierarchical_unbalanced_noaug", "accuracy": 0.8807954953875644, "macro_f1": 0.5528713013691392, "mean_retained_macro_f1": 0.2090405027791833}
+Ablation Hierarchical_balanced_noaug
+{"model": "Hierarchical_balanced_noaug", "accuracy": 0.8740265963819336, "macro_f1": 0.5488996403624149, "mean_retained_macro_f1": 0.2134189623465237}
+Ablation Augmented_unbalanced
+{"model": "Augmented_unbalanced", "accuracy": 0.8793578531208818, "macro_f1": 0.5603918010582891, "mean_retained_macro_f1": 0.3203418330573148}
+Ablation Augmented_weights_only
+{"model": "Augmented_weights_only", "accuracy": 0.8703126871930035, "macro_f1": 0.5800318991243513, "mean_retained_macro_f1": 0.3513603208362883}
+Ablation Augmented_SMOTE_only
+{"model": "Augmented_SMOTE_only", "accuracy": 0.8752845333652809, "macro_f1": 0.5705666419895048, "mean_retained_macro_f1": 0.3427977800436686}
+Ablation Flat_unbalanced_noaug
+{"model": "Flat_unbalanced_noaug", "accuracy": 0.8837306816820415, "macro_f1": 0.5728645125464109, "mean_retained_macro_f1": 0.2165378568856957}
+Group-aware split 38950 16695 max deviation 0.004545454545454519
+{"model": "GroupAware_EdgeGuard", "accuracy": 0.870020964360587, "macro_f1": 0.5529275725225719, "mean_retained_macro_f1": 0.34039549325679497}
+mkdir -p failed for path /home/agent/.config/matplotlib: [Errno 30] Read-only file system: '/home/agent/.config/matplotlib'
+Matplotlib created a temporary cache directory at /tmp/matplotlib-3q94uykw because there was an issue with the default path (/home/agent/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+SHAP: both stages explained on 256 held-out flows
+EXPERIMENT COMPLETE /workspace/edgeguard/results/hybrid

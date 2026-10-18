@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "url": "https://research.unsw.edu.au/projects/unsw-nb15-dataset",
+      "error_type": "ProxyError"
+    },
+    {
+      "url": "https://ieee-dataport.org/documents/edge-iiotset-new-comprehensive-realistic-cyber-security-dataset-iot-and-iiot-applications",
+      "error_type": "ProxyError"
+    },
+    {
+      "url": "https://unsw-my.sharepoint.com/personal/z5131399_ad_unsw_edu_au/_layouts/15/onedrive.aspx",
+      "error_type": "ProxyError"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot",
+      "error_type": "ProxyError"
+    }
+  ],
+  "existing_variable_presence": {
+    "KAGGLE_API_TOKEN": false,
+    "KAGGLE_USERNAME": false,
+    "KAGGLE_KEY": false
+  },
+  "scope": "No credentials requested. Exact Bot-IoT scenario/sample manifests not provided."
+}

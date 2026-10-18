@@ -1,0 +1,35 @@
+{
+  "model": "Hierarchical_unbalanced_noaug",
+  "accuracy": 0.8807954953875644,
+  "macro_f1": 0.5528713013691392,
+  "weighted_f1": 0.8792872420487367,
+  "mcc": 0.7963884496768501,
+  "rare_class_recall": 0.32793472505861887,
+  "throughput_flows_s": 23626.14694955787,
+  "batch_amortized_ms_flow": 0.042325987480523714,
+  "inference_pass_seconds": [
+    0.7914746269998432,
+    0.7116907299998729,
+    0.670772253999985,
+    0.7065900349998628,
+    0.6933338320000075
+  ],
+  "serialized_bytes": 7245954,
+  "stage1_binary_f1": 0.9524108192865542,
+  "stage1_attack_recall": 0.9443407960199005,
+  "stage1_roc_auc": 0.9942069474421887,
+  "escalation_rate": 0.37875883550976397,
+  "stage2_smote_counts": {
+    "0": 276,
+    "1": 224,
+    "2": 1160,
+    "3": 5283,
+    "4": 3347,
+    "5": 2558,
+    "7": 1865,
+    "8": 265,
+    "9": 31
+  },
+  "mean_retained_macro_f1": 0.2090405027791833,
+  "performance_retention_ratio": 0.37809975352584246
+}

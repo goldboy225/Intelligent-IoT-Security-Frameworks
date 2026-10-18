@@ -1,0 +1,23 @@
+{
+  "model": "LightGBM",
+  "accuracy": 0.877680603809752,
+  "macro_f1": 0.5565991160044337,
+  "weighted_f1": 0.8816516092353317,
+  "mcc": 0.7936009598709841,
+  "rare_class_recall": 0.36903174873307626,
+  "throughput_flows_s": 5423.083099829636,
+  "batch_amortized_ms_flow": 0.18439695309692278,
+  "inference_pass_seconds": [
+    2.920667117999983,
+    3.1507899250000264,
+    3.078322735000029,
+    3.034283498999912,
+    3.10619106199988
+  ],
+  "serialized_bytes": 13293636,
+  "mean_retained_macro_f1": 0.2072608979212548,
+  "performance_retention_ratio": 0.37237015288325365,
+  "fit_seconds": 15.264599133000047,
+  "fit_warnings": [],
+  "sample_weight_supported": true
+}

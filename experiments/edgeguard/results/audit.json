@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "dataset": "hybrid",
+      "models_checked": 20,
+      "heldout_predictions_match_metrics": true,
+      "train_test_indices_disjoint": true,
+      "training_scaler_verified": true,
+      "exact_numeric_predictor_hash_overlap": 394,
+      "corruption_conditions_checked": 228,
+      "model_reload_passed": true
+    },
+    {
+      "dataset": "paper_features",
+      "models_checked": 1,
+      "heldout_predictions_match_metrics": true,
+      "train_test_indices_disjoint": true,
+      "training_scaler_verified": true,
+      "exact_numeric_predictor_hash_overlap": 394,
+      "corruption_conditions_checked": 12,
+      "model_reload_passed": true
+    },
+    {
+      "dataset": "edgeiiot",
+      "models_checked": 1,
+      "heldout_predictions_match_metrics": true,
+      "train_test_indices_disjoint": true,
+      "training_scaler_verified": true,
+      "exact_numeric_predictor_hash_overlap": 95,
+      "corruption_conditions_checked": 12,
+      "model_reload_passed": true
+    },
+    {
+      "dataset": "botiot_alternative",
+      "models_checked": 1,
+      "heldout_predictions_match_metrics": true,
+      "train_test_indices_disjoint": true,
+      "training_scaler_verified": true,
+      "exact_numeric_predictor_hash_overlap": 7,
+      "corruption_conditions_checked": 12,
+      "model_reload_passed": true
+    }
+  ],
+  "note": "Predictor overlap counts exclude target; numeric+target deduplication can retain conflicting-label predictors. A zero overlap does not rule out near duplicates."
+}

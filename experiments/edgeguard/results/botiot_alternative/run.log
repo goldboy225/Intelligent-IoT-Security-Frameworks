@@ -1,0 +1,5 @@
+Preparing dataset and train-only MI/RFE selection
+Training EdgeGuard
+{"model": "EdgeGuard", "accuracy": 0.9832618901816698, "macro_f1": 0.9276035078129634, "mean_retained_macro_f1": 0.4763769347543703}
+SHAP: both stages explained on 256 held-out flows
+EXPERIMENT COMPLETE /workspace/edgeguard/results/botiot_alternative

@@ -1,0 +1,23 @@
+{
+  "model": "XGBoost",
+  "accuracy": 0.8752246316041692,
+  "macro_f1": 0.5606940915065246,
+  "weighted_f1": 0.879861678952155,
+  "mcc": 0.7902715314724169,
+  "rare_class_recall": 0.4251687656001815,
+  "throughput_flows_s": 20949.795300143207,
+  "batch_amortized_ms_flow": 0.04773316329220478,
+  "inference_pass_seconds": [
+    0.7037114809998002,
+    0.7968574280000666,
+    0.905844709999883,
+    0.7610587550000218,
+    0.922610480000003
+  ],
+  "serialized_bytes": 12654361,
+  "mean_retained_macro_f1": 0.21730648919782966,
+  "performance_retention_ratio": 0.38756693264583997,
+  "fit_seconds": 18.65765298400015,
+  "fit_warnings": [],
+  "sample_weight_supported": true
+}

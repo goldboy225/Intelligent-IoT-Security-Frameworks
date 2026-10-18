@@ -1,0 +1,22 @@
+{
+  "friedman_statistic": 78.85714285714283,
+  "p_value": 6.8145440814879965e-12,
+  "nemenyi_cd_alpha_05": 5.769620339608472,
+  "blocks": "ten per-class F1 scores from one held-out split; not independent repeated trials",
+  "average_ranks": {
+    "EdgeGuard": 3.5,
+    "HistGBM": 11.6,
+    "XGBoost": 3.4,
+    "LightGBM": 2.8,
+    "RandomForest": 3.5,
+    "ExtraTrees": 5.6,
+    "DecisionTree": 6.2,
+    "MLP": 6.1,
+    "kNN": 8.6,
+    "AdaBoost": 8.7,
+    "LogReg": 9.8,
+    "LinearSVC": 10.0,
+    "GaussianNB": 11.2
+  },
+  "interpretation": "Failure to reject a pairwise difference does not establish equivalence or non-inferiority."
+}

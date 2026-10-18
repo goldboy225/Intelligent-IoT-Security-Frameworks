@@ -1,0 +1,20 @@
+{
+  "model": "HistGBM_L2_1_sensitivity",
+  "accuracy": 0.867736911465197,
+  "macro_f1": 0.5623424913569883,
+  "weighted_f1": 0.8748593698653434,
+  "mcc": 0.7792878675841115,
+  "rare_class_recall": 0.4572791392481658,
+  "throughput_flows_s": 12732.047437115401,
+  "batch_amortized_ms_flow": 0.07854196310052093,
+  "inference_pass_seconds": [
+    1.312527485999908,
+    1.3132209109999167,
+    1.2986431859999357,
+    1.3111795320000965,
+    1.2995042170000488
+  ],
+  "serialized_bytes": 7275696,
+  "mean_retained_macro_f1": 0.21265174440904333,
+  "performance_retention_ratio": 0.3781534343881671
+}

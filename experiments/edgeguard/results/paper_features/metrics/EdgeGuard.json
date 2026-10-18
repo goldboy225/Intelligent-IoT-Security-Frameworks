@@ -1,0 +1,38 @@
+{
+  "model": "EdgeGuard",
+  "accuracy": 0.8728285611596981,
+  "macro_f1": 0.5672544722637929,
+  "weighted_f1": 0.8792221532344942,
+  "mcc": 0.7857049377693378,
+  "rare_class_recall": 0.557325939792754,
+  "throughput_flows_s": 33570.19120172648,
+  "batch_amortized_ms_flow": 0.029788331975558455,
+  "inference_pass_seconds": [
+    0.4870764300001156,
+    0.5370781010001338,
+    0.5029996239998127,
+    0.4960037589999047,
+    0.49728641399997286
+  ],
+  "serialized_bytes": 7320242,
+  "stage1_binary_f1": 0.9467574678842284,
+  "stage1_attack_recall": 0.9510261194029851,
+  "stage1_roc_auc": 0.9930357894313271,
+  "escalation_rate": 0.38876242961543067,
+  "stage2_smote_counts": {
+    "0": 4000,
+    "1": 4000,
+    "2": 4000,
+    "3": 5283,
+    "4": 4000,
+    "5": 4000,
+    "7": 4000,
+    "8": 4000,
+    "9": 4000
+  },
+  "mean_retained_macro_f1": 0.34377845649274236,
+  "performance_retention_ratio": 0.6060392174975635,
+  "fit_seconds": 23.749191779000057,
+  "fit_warnings": [],
+  "sample_weight_supported": true
+}
