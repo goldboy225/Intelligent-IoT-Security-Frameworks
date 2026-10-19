@@ -1,0 +1,7 @@
+{
+  "command": "train.py --csv /workspace/sherlock-review/data/author_verified_features.csv --output /workspace/sherlock-review/runs/preflight",
+  "exit_code": 1,
+  "status": "blocked_no_real_feature_table",
+  "error": "FileNotFoundError: Real feature table missing; run fetch_data.py after network access is applied. No synthetic substitution is permitted.",
+  "training_performed": false
+}

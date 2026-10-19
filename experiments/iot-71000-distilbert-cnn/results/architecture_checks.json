@@ -1,0 +1,33 @@
+{
+  "status": "structural_check_only_not_accuracy_reproduction",
+  "initialization": "random, no pretrained checkpoint or real samples used",
+  "torch": "2.8.0+cpu",
+  "python": "3.12.14",
+  "cpu_threads": 4,
+  "cuda_available": false,
+  "dimensions": {
+    "input_features": 470,
+    "projection_output": 768,
+    "transformer_tokens": 1,
+    "transformer_layers": 6,
+    "transformer_width": 768,
+    "fusion_width": 1152,
+    "fusion_tokens": 1,
+    "fusion_heads": 8,
+    "binary_logits": 2,
+    "attack_logits": 5
+  },
+  "parameters": 73252231,
+  "full_width_backward_loss_finite": true,
+  "fusion_query_key_gradient_max_abs": 0.0,
+  "cpu_forward_seconds_five_warmed_batches": [
+    0.08905848600261379,
+    0.08859260600002017,
+    0.06891878499300219,
+    0.09113180200802162,
+    0.10034816099505406
+  ],
+  "caveat": "Timings are this untrained assumed implementation on random 64x470 inputs. They neither validate the manuscript accuracy nor establish real-time gateway suitability.",
+  "shape_result": "Eq.4 gives z in R^768. Reshaping into L x 768 without adding values forces L=1. CNN kernel 5 over one transformer token sees only the center and zero padding.",
+  "attention_result": "For one fusion token, softmax of a 1x1 attention score is exactly 1; query/key weighting cannot adaptively select among feature sources. This finding is conditional on the literal concatenated-vector interpretation, not proof of what the undocumented author code did."
+}

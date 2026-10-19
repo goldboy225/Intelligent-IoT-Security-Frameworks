@@ -1,0 +1,13 @@
+test_all_ablation_variants_have_valid_dual_outputs (test_protocol.ProtocolTests.test_all_ablation_variants_have_valid_dual_outputs) ... ok
+test_benign_samples_excluded_from_attack_family_loss (test_protocol.ProtocolTests.test_benign_samples_excluded_from_attack_family_loss) ... ok
+test_focal_loss_is_finite_and_masks_benign_rows (test_protocol.ProtocolTests.test_focal_loss_is_finite_and_masks_benign_rows) ... ok
+test_full_width_real_distilbert_forward_backward (test_protocol.ProtocolTests.test_full_width_real_distilbert_forward_backward) ... ok
+test_multiple_tokens_remove_that_degeneracy (test_protocol.ProtocolTests.test_multiple_tokens_remove_that_degeneracy) ... ok
+test_original_benign_events_never_become_attacks (test_protocol.ProtocolTests.test_original_benign_events_never_become_attacks) ... ok
+test_published_matrix_arithmetic (test_protocol.ProtocolTests.test_published_matrix_arithmetic) ... ok
+test_singleton_attention_has_no_query_key_dependence (test_protocol.ProtocolTests.test_singleton_attention_has_no_query_key_dependence) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.771s
+
+OK

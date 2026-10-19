@@ -1,0 +1,7 @@
+check,manuscript,recomputed,outcome
+Multiclass accuracy,98.65%,98.645990%,Consistent to two decimal places
+Macro F1,0.96 / 96.0%,95.762261%,Consistent with F1 fraction rounded to 0.96; equals 95.8% at one decimal
+Weighted F1,not separately specified,98.668726%,"Different averaging, not the reported macro score"
+Matrix test support,Figure 5(b),8641,Exactly equals all Figure 4 counts
+Separate binary-head accuracy/AUC,dual-head claim,not recoverable,Require binary-head predictions and continuous scores
+New model test accuracy,98.65%,NOT RUN,No real-data training completed

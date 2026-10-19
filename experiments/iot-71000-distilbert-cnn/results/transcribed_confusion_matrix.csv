@@ -1,0 +1,7 @@
+,ArpSpoof,Benign,Control&Freeze,DriftOff,GeneratorControl,Industroyer
+ArpSpoof,47,2,0,0,0,0
+Benign,1,7387,23,14,11,42
+Control&Freeze,0,5,368,0,0,0
+DriftOff,0,9,0,362,0,0
+GeneratorControl,0,3,0,0,117,0
+Industroyer,0,7,0,0,0,243

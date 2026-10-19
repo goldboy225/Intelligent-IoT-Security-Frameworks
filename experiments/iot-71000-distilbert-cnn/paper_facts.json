@@ -1,0 +1,13 @@
+{
+  "manuscript_identifier": "IoT-71000-2026",
+  "title": "Dual-Head DistilBERT-CNN Model for Intrusion Detection and Attack Classification in Power Systems",
+  "source": "User-provided proof; numerical entries manually transcribed and visually checked. The proof itself is not redistributed.",
+  "class_order": ["ArpSpoof", "Benign", "Control&Freeze", "DriftOff", "GeneratorControl", "Industroyer"],
+  "figure4_counts": [49, 7478, 373, 371, 120, 250],
+  "figure5_confusion_matrix": [[47,2,0,0,0,0],[1,7387,23,14,11,42],[0,5,368,0,0,0],[0,9,0,362,0,0],[0,3,0,0,117,0],[0,7,0,0,0,243]],
+  "reported_accuracy_percent": 98.65,
+  "reported_macro_f1_percent": 96.0,
+  "split": [0.6, 0.2, 0.2],
+  "hyperparameters": {"optimizer":"AdamW", "learning_rate":0.00005, "weight_decay":0.01, "batch_size":64, "epochs":30, "patience":5, "dropout":0.3, "cnn_filters":128, "kernel_sizes":[5], "hidden_dimensions":[128], "distilbert_hidden_size":768},
+  "ablation_table": [{"model":"DistilBERT Only", "accuracy_percent":95.0, "macro_f1":0.94},{"model":"CNN Only", "accuracy_percent":67.0, "macro_f1":0.35},{"model":"Without Attention", "accuracy_percent":96.0, "macro_f1":0.93},{"model":"Hybrid Focal", "accuracy_percent":94.49, "macro_f1":0.87},{"model":"Proposed", "accuracy_percent":98.65, "macro_f1":0.96}]
+}

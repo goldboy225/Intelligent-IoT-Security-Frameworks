@@ -1,0 +1,42 @@
+{
+  "status": "blocked_real_dataset_training",
+  "checks": [
+    {
+      "url": "https://zenodo.org/api/records/15168928",
+      "error_type": "ProxyError"
+    },
+    {
+      "url": "https://zenodo.org/api/records/18467070",
+      "error_type": "ProxyError"
+    },
+    {
+      "url": "https://sherlock.wattson.it/download/",
+      "error_type": "ProxyError"
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/ipal-ids/ipal_datasets/2fae8546757f82b4840a492cf6351d28f3727e60/Sherlock/ipal/01-Basic/test.n302.state.gz",
+      "error_type": "ProxyError"
+    },
+    {
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased/resolve/main/config.json",
+      "error_type": "ProxyError"
+    }
+  ],
+  "real_state_file_present": false,
+  "required_state_sha256": "38b2f84c21cb2ca92aa4146f9defde74a1e5c0207b616b3d8ac1faac19819e08",
+  "historical_native_git_read_in_this_review": "public IPAL source checkout succeeded at pinned commit",
+  "historical_native_git_lfs_result_in_this_review": "Resource not accessible by integration; Git LFS pull exit 2",
+  "public_author_code_search": "No matching repository found by title/architecture queries; absence from search is not proof that no code exists.",
+  "dataset_version": "Manuscript unspecified. Public IPAL mirror pinned by commit/hash; Zenodo v1 and v3 identified, not silently treated as identical.",
+  "completed_training_result_files_in_standard_run_directory": 0,
+  "next_actions": [
+    "Apply saved network domain additions in environment settings and retry data/model access.",
+    "Obtain or clarify six-class labels, exact feature table/splits, checkpoint and architecture choices from the authors."
+  ],
+  "already_completed": [
+    "confusion matrix arithmetic",
+    "public event-label audit",
+    "architecture structural checks",
+    "full-width DistilBERT code tests"
+  ]
+}

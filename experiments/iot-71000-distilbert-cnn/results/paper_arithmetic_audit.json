@@ -1,0 +1,46 @@
+{
+  "status": "arithmetic_audit_completed_not_training_validation",
+  "evaluation_samples": 8641,
+  "correct_predictions": 8524,
+  "accuracy_percent": 98.64599004744821,
+  "macro_f1": 0.9576226052464557,
+  "weighted_f1": 0.9866872593664345,
+  "accuracy_rounds_to_reported_two_decimal_percent": true,
+  "macro_f1_rounds_to_reported_one_decimal_percent": false,
+  "macro_f1_rounds_to_table_two_decimal_fraction": true,
+  "rounding_interpretation": "Macro F1 is 95.7623%, or 95.8% to one decimal. It agrees with Table V F1=0.96 rounded as a fraction. This precision difference alone is not a substantive numerical contradiction.",
+  "figure4_equals_figure5_row_totals": true,
+  "total_required_if_matrix_is_20_percent_test_split": 43205,
+  "split_count_caveat": "8641 test rows are also compatible with ceil(0.2*43204). Equality with Figure 4 is not proof of train/test leakage; Figure 4 may show test-only counts. Clarification required.",
+  "binary_metrics_from_collapsing_multiclass_matrix_not_separate_binary_head": {
+    "confusion_matrix": [
+      [
+        7387,
+        91
+      ],
+      [
+        26,
+        1137
+      ]
+    ],
+    "attack_precision": 0.9258957654723127,
+    "attack_recall": 0.9776440240756664,
+    "attack_f1": 0.9510664993726474
+  },
+  "attack_family_confusions_excluding_benign": 0,
+  "lowest_class_f1": [
+    [
+      "Industroyer",
+      0.908411214953271
+    ],
+    [
+      "GeneratorControl",
+      0.9435483870967742
+    ]
+  ],
+  "textual_check": "Text says lowest F1s are Industroyer and Control&Freeze; matrix instead gives Industroyer and GeneratorControl.",
+  "f1_gain_over_without_attention_percentage_points": 2.9999999999999916,
+  "attention_gain_text_caveat": "Text claims 2.0 F1 percentage points; Table V implies 3.0.",
+  "roc_auc_status": "not independently recoverable from hard confusion counts; requires held-out score vectors",
+  "training_status": "not_run_until_real_data_and_architecture_choices_are_available"
+}

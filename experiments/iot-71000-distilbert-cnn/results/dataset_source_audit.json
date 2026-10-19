@@ -1,0 +1,25 @@
+{
+  "source_url": "https://raw.githubusercontent.com/ipal-ids/ipal_datasets/2fae8546757f82b4840a492cf6351d28f3727e60/Sherlock/ipal/01-Basic/test.events.json",
+  "source_commit": "2fae8546757f82b4840a492cf6351d28f3727e60",
+  "sha256": "49793abc1464ac6583c9c3755ad0fd6adccb006895ed875fee78c5343ec4a0b0",
+  "event_count": 28,
+  "families": [
+    "arp-spoof",
+    "control center",
+    "control-and-freeze",
+    "drift-off",
+    "industroyer"
+  ],
+  "generator_control_events": [
+    {
+      "id": "16 (benign event)",
+      "description": "control center:Generator Control",
+      "start": 1742949082.2307525,
+      "end": 1742949112.2784526
+    }
+  ],
+  "benign_catalog_events": 10,
+  "original_paper_source": "https://github.com/ipal-ids/ipal_datasets/blob/2fae8546757f82b4840a492cf6351d28f3727e60/Sherlock/documentation/paper.pdf",
+  "original_paper_evidence": "Sections 3.4 and 3.5 describe four attack types and require maintenance events to be counted as normal; Section 3.6 logs network-observed state every second, distinct from 10-second measurement transmission.",
+  "interpretation": "A six-class task adding GeneratorControl cannot be reconstructed from this catalog without an additional author-supplied label mapping or custom data."
+}
